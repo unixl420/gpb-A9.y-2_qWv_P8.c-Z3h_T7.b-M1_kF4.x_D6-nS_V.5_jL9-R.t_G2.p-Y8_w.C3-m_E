@@ -50,7 +50,7 @@ export function SiteHeader({
       <div className="mx-auto flex max-w-6xl items-center gap-3 px-[26px] py-3 lg:px-8">
         <Link to="/" className="flex min-w-0 items-center gap-3">
           <img
-            src="/brand/cbp.png"
+            src="/brand/gpb.png"
             alt=""
             className="size-12 shrink-0 object-contain"
           />

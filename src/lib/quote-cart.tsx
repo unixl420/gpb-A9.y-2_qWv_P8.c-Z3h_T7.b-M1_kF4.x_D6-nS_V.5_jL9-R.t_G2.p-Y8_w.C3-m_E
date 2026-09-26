@@ -63,8 +63,8 @@ type QuoteCartValue = {
 };
 
 const QuoteCartContext = createContext<QuoteCartValue | null>(null);
-const CART_KEY = "cbg-cart-v1";
-const SHIP_KEY = "cbg-ship-v1";
+const CART_KEY = "gpb-cart-v1";
+const SHIP_KEY = "gpb-ship-v1";
 
 function readStoredLines(): QuoteLine[] {
   if (typeof window === "undefined") return [];
@@ -121,7 +121,7 @@ function timezoneLooksUS(): boolean {
 
 async function detectShipDest(): Promise<ShipDest> {
   try {
-    const cached = window.sessionStorage.getItem("cbg-ip-dest");
+    const cached = window.sessionStorage.getItem("gpb-ip-dest");
     if (cached === "us" || cached === "row") return cached;
   } catch {
     /* ignore */
@@ -159,7 +159,7 @@ async function detectShipDest(): Promise<ShipDest> {
 
   const dest: ShipDest = code === "US" ? "us" : code ? "row" : timezoneLooksUS() ? "us" : "row";
   try {
-    window.sessionStorage.setItem("cbg-ip-dest", dest);
+    window.sessionStorage.setItem("gpb-ip-dest", dest);
   } catch {
     /* ignore */
   }

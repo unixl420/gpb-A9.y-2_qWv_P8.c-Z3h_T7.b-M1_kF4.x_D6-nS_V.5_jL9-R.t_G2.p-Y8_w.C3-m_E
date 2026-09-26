@@ -3,7 +3,7 @@ import { mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
 const url = process.argv[2] || "http://127.0.0.1:8080/print";
-const out = resolve(process.argv[3] || "/workspace/public/China-Biotech-September-Price-List.pdf");
+const out = resolve(process.argv[3] || "/workspace/public/GPB-September-Price-List.pdf");
 
 await mkdir(dirname(out), { recursive: true });
 

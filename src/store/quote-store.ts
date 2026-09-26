@@ -43,7 +43,7 @@ export const useQuoteStore = create<QuoteState>()(
       clear: () => set({ lines: [] }),
     }),
     {
-      name: "cbg-quote",
+      name: "gpb-quote",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
     },

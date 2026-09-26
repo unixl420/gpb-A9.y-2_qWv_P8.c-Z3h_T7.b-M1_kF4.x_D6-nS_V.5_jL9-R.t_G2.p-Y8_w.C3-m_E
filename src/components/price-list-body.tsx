@@ -90,7 +90,7 @@ export function PriceListBody({
       <header className="print-page pb-6">
         <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:gap-4 sm:text-left">
           <img
-            src="/brand/cbp.png"
+            src="/brand/gpb.png"
             alt="Guangzhou Peptide Biotech"
             width={150}
             height={150}

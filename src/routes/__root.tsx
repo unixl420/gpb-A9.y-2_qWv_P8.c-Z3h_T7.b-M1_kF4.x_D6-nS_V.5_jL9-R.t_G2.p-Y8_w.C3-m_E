@@ -7,7 +7,7 @@ import appCss from "../styles.css?url";
 import { currentListPeriod } from "@/lib/catalog";
 
 const period = currentListPeriod();
-const APP_NAME = `China Biotech Group | ${period.title}`;
+const APP_NAME = `Guangzhou Peptide Biotech | ${period.title}`;
 
 export const Route = createRootRoute({
   head: () => ({

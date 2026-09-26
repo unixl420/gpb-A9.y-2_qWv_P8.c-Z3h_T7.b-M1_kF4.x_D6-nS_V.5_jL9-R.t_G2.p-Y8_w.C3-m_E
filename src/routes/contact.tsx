@@ -13,7 +13,7 @@ function ContactRedirect() {
     <main className="mx-auto max-w-3xl px-[26px] py-16 lg:px-8">
       <p className="text-base text-ink-soft">Opening our official contact page…</p>
       <a href={LIST_META.contactPage} className="mt-3 inline-block text-base font-medium text-cobalt underline">
-        Continue to Shenzhen Peptide contact
+        Continue to Guangzhou Peptide Biotech contact
       </a>
     </main>
   );

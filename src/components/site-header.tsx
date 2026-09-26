@@ -55,7 +55,7 @@ export function SiteHeader({
             className="size-12 shrink-0 object-contain"
           />
           <span className="min-w-0">
-            <span className="block text-base font-bold leading-tight">China Biotech Group</span>
+            <span className="block text-base font-bold leading-tight">Guangzhou Peptide Biotech</span>
             <span className="block truncate text-sm text-ink-soft">{LIST_META.title}</span>
           </span>
         </Link>
@@ -110,7 +110,7 @@ export function SiteHeader({
         )}
 
         <div className="ml-auto flex items-center gap-2">
-          <a href="/China-Biotech-September-Price-List.pdf" download className="hidden sm:block">
+          <a href="/GPB-September-Price-List.pdf" download className="hidden sm:block">
             <Button variant="outline">
               <Download />
               Download PDF
@@ -182,7 +182,7 @@ export function SiteHeader({
           </nav>
         )}
         <div className="mt-3">
-          <a href="/China-Biotech-September-Price-List.pdf" download>
+          <a href="/GPB-September-Price-List.pdf" download>
             <Button variant="outline" className="w-full">
               <Download />
               PDF

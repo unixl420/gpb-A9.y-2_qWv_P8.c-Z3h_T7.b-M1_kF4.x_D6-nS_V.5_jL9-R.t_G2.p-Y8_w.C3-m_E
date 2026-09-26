@@ -865,15 +865,15 @@ export const LIST_META = {
   get monthName() {
     return currentListPeriod().month;
   },
-  company: "Shenzhen Peptide Biotechnology Co., Ltd.",
-  companyUrl: "https://www.shenzhenpeptide.com",
-  group: "China Biotech Group",
+  company: "Guangzhou Peptide Biotech",
+  companyUrl: "mailto:guangzhoupeptide@protonmail.com",
+  group: "GPB",
   get month() {
     return currentListPeriod().label;
   },
   kitLegend: "1 Kit = 10 Vials",
   intro:
-    'Shenzhen Peptide Biotechnology Co., Ltd. (“SPB”) is the official storefront of China Biotech Group. We have been producing peptides continuously since 2010. We supply B2B partners around the world, and our storefront also serves individual research customers at factory-direct prices with a low minimum order. Every batch is tested in our own laboratory before release, and every order is protected by our written Quality Guarantee and Shipping Guarantee.',
+    "Guangzhou Peptide Biotech (G / GPB) has been producing peptides continuously since 2010. We supply B2B partners around the world, and we also serve individual research customers at factory-direct prices with a low minimum order. Every batch is tested in our own laboratory before release, and every order is protected by our written Quality Guarantee and Shipping Guarantee.",
   quality:
     "We encourage you to test your received batch at any reputable laboratory. Should independent results fall below specification, we will provide a full refund or a replacement batch. Further detail is below; contact us for a public COA.",
   shipping:
@@ -886,11 +886,10 @@ export const LIST_META = {
     "We produce private-label packaging in-house for B2B and bulk orders. Your logo can be printed on vial and box labels and stickers, and caps can be made in your color or branding.",
   research:
     "For laboratory research use only. Not for human or veterinary use, not for diagnostic procedures, and not a drug, food, or cosmetic.",
-  contactEmail: "shenzhenpeptide@protonmail.com",
-  telegram: "shenzhen_peptide",
-  telegramUrl: "https://t.me/shenzhen_peptide",
-  contactPage: "https://www.shenzhenpeptide.com/contact",
-  address:
-    "6 Kefa Road, Science and Technology Park, Nanshan District, Shenzhen, Guangdong 518057",
-  addressZh: "广东省深圳市南山区科技园科发路6号 邮政编码：518057",
+  contactEmail: "guangzhoupeptide@protonmail.com",
+  telegram: "guangzhou_peptide",
+  telegramUrl: "https://t.me/guangzhou_peptide",
+  contactPage: "mailto:guangzhoupeptide@protonmail.com",
+  address: "Guangzhou, Guangdong, China",
+  addressZh: "中国广东省广州市",
 };

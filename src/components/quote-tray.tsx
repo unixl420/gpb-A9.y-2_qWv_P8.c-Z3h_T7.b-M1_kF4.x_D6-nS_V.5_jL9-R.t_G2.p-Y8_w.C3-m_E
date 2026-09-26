@@ -40,7 +40,7 @@ export function QuoteTray() {
     const text = cart.copyText();
     if (navigator.share) {
       try {
-        await navigator.share({ title: `${LIST_META.group} cart`, text });
+        await navigator.share({ title: `${LIST_META.company} cart`, text });
         return;
       } catch (error) {
         if (error instanceof Error && error.name === "AbortError") return;

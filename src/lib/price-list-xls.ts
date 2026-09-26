@@ -60,7 +60,7 @@ export function buildPriceListWorkbook(): { filename: string; xml: string } {
 </Workbook>`;
 
   return {
-    filename: `CBG-Peptide-Price-List-${period.month}-${period.year}.xls`,
+    filename: `GPB-Peptide-Price-List-${period.month}-${period.year}.xls`,
     xml,
   };
 }

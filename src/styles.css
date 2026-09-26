@@ -792,7 +792,7 @@ html.tab-hidden .cell {
     size: A4;
     margin: 12mm 10mm 14mm;
     @bottom-center {
-      content: "China Biotech Group  ·  September 2026 Peptide Price List  ·  Page " counter(page);
+      content: "Guangzhou Peptide Biotech (GPB)  ·  September 2026 Peptide Price List  ·  Page " counter(page);
       font-size: 8pt;
       color: #5c5f68;
     }

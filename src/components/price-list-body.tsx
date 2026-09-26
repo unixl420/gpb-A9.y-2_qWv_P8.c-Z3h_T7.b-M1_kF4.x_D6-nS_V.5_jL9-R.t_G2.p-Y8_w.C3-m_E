@@ -91,7 +91,7 @@ export function PriceListBody({
         <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:gap-4 sm:text-left">
           <img
             src="/brand/cbp.png"
-            alt="China Biotech Group"
+            alt="Guangzhou Peptide Biotech"
             width={150}
             height={150}
             decoding="async"
@@ -138,11 +138,10 @@ export function PriceListBody({
           >
             {LIST_META.company}
           </a>{" "}
-          (“SPB”) is the official storefront of China Biotech Group. We have been producing
-          peptides continuously since 2010. We supply B2B partners around the world, and our
-          storefront also serves individual research customers at factory-direct prices with a low
-          minimum order. Every batch is tested in our own laboratory before release, and every order
-          is protected by our written Quality Guarantee and Shipping Guarantee.
+          (G / GPB) has been producing peptides continuously since 2010. We supply B2B partners
+          around the world, and we also serve individual research customers at factory-direct prices
+          with a low minimum order. Every batch is tested in our own laboratory before release, and
+          every order is protected by our written Quality Guarantee and Shipping Guarantee.
         </p>
       </section>
 

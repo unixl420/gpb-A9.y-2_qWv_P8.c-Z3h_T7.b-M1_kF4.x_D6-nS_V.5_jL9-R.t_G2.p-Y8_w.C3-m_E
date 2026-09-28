@@ -13,7 +13,7 @@ export const CategoryTable = memo(function CategoryTable({
   highlightTier: number;
 }) {
   const groups = groupByName(products);
-  const accent = products[0] ? (categoryById(products[0].category)?.accent ?? "#1b4f8a") : "#1b4f8a";
+  const accent = products[0] ? (categoryById(products[0].category)?.accent ?? "#0a4c73") : "#0a4c73";
 
   return (
     <div className="space-y-4">

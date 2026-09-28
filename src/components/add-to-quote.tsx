@@ -15,7 +15,7 @@ export function AddToQuote({
   const cart = useQuoteCartOptional();
   if (!cart?.picking) return null;
   const qty = cart.lineQty(product.id);
-  const color = accent ?? "#1b4f8a";
+  const color = accent ?? "#0a4c73";
   const added = qty > 0;
 
   return (

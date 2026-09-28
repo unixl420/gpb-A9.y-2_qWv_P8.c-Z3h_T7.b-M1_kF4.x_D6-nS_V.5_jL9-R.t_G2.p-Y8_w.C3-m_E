@@ -38,7 +38,7 @@ export const VolumeModel = memo(function VolumeModel({
 
   return (
     <section id="volume-pricing" className="overflow-hidden rounded-xl border-2 border-cobalt/30 bg-card">
-      <div className="border-b border-line bg-cobalt px-[26px] py-4 text-paper">
+      <div className="border-b border-line bg-gradient-to-r from-cobalt to-teal px-[26px] py-4 text-paper">
         <div className="flex items-center justify-between gap-3">
           <h2 className="flex items-center gap-2 text-lg font-semibold">
             {interactive ? <MousePointerClick className="size-5 shrink-0" /> : null}

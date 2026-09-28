@@ -90,8 +90,8 @@ export function PriceListBody({
       <header className="print-page pb-6">
         <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:gap-4 sm:text-left">
           <img
-            src="/brand/gpb.png"
-            alt="Guangzhou Peptide Biotech"
+            src="/brand/gpb-lockup-white.webp"
+            alt='Guangzhou Peptide Biotechnology Co., Ltd. ("G" or "GPB")'
             width={150}
             height={150}
             decoding="async"
@@ -103,8 +103,8 @@ export function PriceListBody({
           <div className="min-w-0 w-full sm:flex-1">
             <div className="flex items-center justify-between gap-4">
               <div className="min-w-0 w-full sm:w-auto">
-                <p className="hidden text-sm font-semibold uppercase tracking-wide text-cobalt sm:block">
-                  {LIST_META.group}
+                <p className="hidden text-sm font-semibold tracking-wide text-cobalt sm:block">
+                  {LIST_META.company}
                 </p>
                 <h1 className="text-3xl font-bold tracking-tight sm:mt-1 sm:text-4xl">
                   <span className="block font-semibold text-ink/40">{LIST_META.monthName}</span>
@@ -138,7 +138,7 @@ export function PriceListBody({
           >
             {LIST_META.company}
           </a>{" "}
-          (G / GPB) has been producing peptides continuously since 2010. We supply B2B partners
+          has been producing peptides continuously since 2010. We supply B2B partners
           around the world, and we also serve individual research customers at factory-direct prices
           with a low minimum order. Every batch is tested in our own laboratory before release, and
           every order is protected by our written Quality Guarantee and Shipping Guarantee.
@@ -385,9 +385,9 @@ export function PriceListBody({
 
 function sectionItems() {
   return [
-    { id: "all", label: "All", accent: "#1b4f8a" },
+    { id: "all", label: "All", accent: "#0a4c73" },
     ...CATEGORIES.map((cat) => ({ id: cat.id, label: cat.short, accent: cat.accent })),
-    { id: "special-order", label: "Special order", accent: "#1b4f8a" },
+    { id: "special-order", label: "Special order", accent: "#0a4c73" },
   ];
 }
 

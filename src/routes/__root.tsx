@@ -7,7 +7,7 @@ import appCss from "../styles.css?url";
 import { currentListPeriod } from "@/lib/catalog";
 
 const period = currentListPeriod();
-const APP_NAME = `Guangzhou Peptide Biotech | ${period.title}`;
+const APP_NAME = `Guangzhou Peptide Biotechnology Co., Ltd. ("G" or "GPB") | ${period.title}`;
 
 export const Route = createRootRoute({
   head: () => ({
@@ -20,7 +20,7 @@ export const Route = createRootRoute({
         content:
           "Factory-direct research peptides since 2010. 100+ compounds, volume pricing 20–60% below retail, in-house QC, independent lab testing, and written quality and shipping guarantees.",
       },
-      { name: "theme-color", content: "#0B0D12" },
+      { name: "theme-color", content: "#0a4c73" },
     ],
     links: [
       { rel: "icon", href: "/favicon.ico", sizes: "48x48" },

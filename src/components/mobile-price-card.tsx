@@ -13,7 +13,7 @@ export const MobileCategoryList = memo(function MobileCategoryList({
   highlightTier: number;
 }) {
   const groups = groupByName(products);
-  const accent = products[0] ? (categoryById(products[0].category)?.accent ?? "#1b4f8a") : "#1b4f8a";
+  const accent = products[0] ? (categoryById(products[0].category)?.accent ?? "#0a4c73") : "#0a4c73";
   const refs = useRef(new Map<string, HTMLElement>());
   const [stuck, setStuck] = useState<string | null>(null);
 
